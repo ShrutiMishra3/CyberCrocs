@@ -1,0 +1,69 @@
+#skills{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.abouttitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 5rem;
+    margin-bottom: 1rem;
+    color: rgb(240, 63, 63);
+}
+
+.aboutdesc{
+    font-weight: 400;
+    font-size: 1.05rem;
+    max-width: 90rem;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+}
+.aboutbars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.aboutbar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+.aboutbarImg{
+    object-fit: cover;
+    height: 5rem;
+    width: 6rem;
+    margin-right: 2rem;
+}
+.aboutbartext>p {
+    font-size: 0.80rem;
+    font-weight: 200;
+}
+.gom{
+    color: rgb(240, 63, 63);
+}
+@media screen and(max-width:720px) {
+    .aboutbartext>p{
+        font-size: 2vw;
+    }
+}
+@media screen and(max-width:480px) {
+    .aboutbartext>p{
+        font-size: 3vw;
+    }
+    .aboutbarImg{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .aboutbartext>h2{
+        font-size: 5vw;
+    }
+}
