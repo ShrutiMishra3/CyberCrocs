@@ -48,9 +48,9 @@ networks, and data from unauthorized access, attacks, damage, or theft. These se
             <textarea className='msg' name="message" rows="5" placeholder='Your Message'></textarea>
             <button type='submit' value='Send' className="submitbtn">Submit</button>
             <div className="links">
-          <a href="https://youtube.com/@shrutimishra2544?si=yljvh1qUVi5AK28W" target="_blank"><img src={you}  alt="c1" className="link" /></a>
+          <a href="https://youtube.com/@shrutimishra2544?si=yljvh1qUVi5AK28W" rel="noreferrer" target="_blank"><img src={you}  alt="c1" className="link" /></a>
           <img src={Facebook} alt="c1" className="link" />
-          <a href="https://www.instagram.com/_incognit0o___/" target="_blank"><img src={Instagram} alt="c1" className="link" /></a>
+          <a href="https://www.instagram.com/_incognit0o___/" target="_blank" rel="noreferrer" ><img src={Instagram} alt="c1" className="link" /></a>
           <img src={twi} alt="c1" className="link" />
             </div>
           </form>
